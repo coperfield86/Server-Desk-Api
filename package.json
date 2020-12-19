@@ -1,0 +1,23 @@
+{
+  "name": "Example",
+  "version": "0.1.0",
+  "description": "Service Desk Api Integration",
+  "main": "app.js",
+  "scripts": {
+    "build:table": "node ./create-table.js",
+    "prebuild:pdf": "npm run build:table",
+    "build:pdf": "node ./create-pdf.js"
+  },
+  "keywords": [
+    "service",
+    "desk",
+    "API"
+  ],
+  "author": "Coperfield",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
+}

@@ -111,8 +111,8 @@ try {
     const options = {
         url: 'https://vaughnconstruction.freshservice.com/api/v2/assets?per_page=100&page=1',
         auth: {
-            user: 'dosorio@vaughnconstruction.com',
-            pass: 'Mantilla.com1986'
+            user: 'user',
+            pass: 'pass'
         }
     };
     request.get(options, (error, response, body) => {
